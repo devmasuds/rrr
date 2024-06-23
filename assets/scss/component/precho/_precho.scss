@@ -1,0 +1,148 @@
+
+.precho-item{
+    display: flex;
+    gap: 20px;
+    img{
+        height: 21px;
+        width: 21px;
+    }
+    h6{
+        color: var(--Brown, #3E1A09);
+font-family: "Satoshi";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.6px;
+    }
+}
+.precho-menu{
+    padding:79px 200px;
+    ul{
+        display: grid;
+        grid-template-columns: repeat(3,2fr);
+        gap: 95px;
+}
+}
+.precho-text{
+    h3{
+        color: var(--Brown, #3E1A09);
+text-align: center;
+font-family: Satoshi;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.44px;
+    }
+}
+
+.cosa-menu{
+    position: relative;
+    margin-bottom: 383px;
+    ul{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        margin-top: 65px;
+        li{
+            border-radius: 10px;
+            background: #FFF;
+            border: 1px solid;
+            padding: 59px;
+            p{
+                strong{
+                    font-size: 40px;
+                }
+                color: var(--Brown, #3E1A09);
+font-family: "Satoshi";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.6px;
+
+            }
+            span{
+                color: var(--Brown, #3E1A09);
+                font-family: "Satoshi";
+                margin-top: 20px;
+                font-family: "Satoshi";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            }
+        }
+    }
+}
+
+.cosa-photo{
+img{
+    height: 719px;
+    width: 555px;
+    position: absolute;
+    top: 374px;
+}
+}
+.dicono-logo{
+    img{
+        height: 440px;
+        width: 400px;
+        position: absolute;
+        top: -197px;
+        right: 0;
+        z-index: -1;
+
+    }
+}
+
+.iscr-input{
+p{
+    color: var(--Brown, #3E1A09);
+text-align: center;
+font-family: "Satoshi";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.6px;
+}
+}
+ input,.form-control {
+    margin-top: 65px;
+    margin-bottom: 60px;
+    width: 1380px;
+    height: 37px;
+    padding: 26px;
+    border-radius: 10px;
+background: #FFF;
+color: var(--Brown, #3E1A09);
+font-family: "Satoshi";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.96px;
+}
+.iscr-menu{
+    button{
+        position: absolute;
+        right: 253px;
+        bottom: 132px;
+        color: var(--Brown, #3E1A09);
+        font-family: Satoshi;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.72px;
+        border-radius: 15px;
+        border: none;
+        background: var(--Yellow-2, #FEBB00);
+        padding: 6px 15px;
+        }
+    }
+    .iscr-iviti{
+        position: relative;
+        margin-bottom: 230px;
+    }

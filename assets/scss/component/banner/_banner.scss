@@ -1,0 +1,57 @@
+.banner-section{
+    background-image: url(./../img/banner/Group\ 76.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 826px;
+}
+.banner-text{
+    padding: 287px;
+    h5{
+        color: var(--Brown, #3E1A09);
+text-align: center;
+font-family: "Satoshi";
+font-size: 30px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+    }
+    h2{
+        color: var(--Brown, #3E1A09);
+text-align: center;
+font-family: "Satoshi";
+font-size: 150px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -4.5px;
+    }
+    p{
+        color: var(--Brown, #3E1A09);
+text-align: center;
+font-family: "Satoshi";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.6px;
+    }
+}
+.Esplora-text{
+    h3{
+        color: var(--Brown, #3E1A09);
+font-family: "Satoshi";
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.44px;
+    }
+    img{
+        margin-top: 30px;
+        width: 27px;
+        height: 29px;
+    }
+}
+.Esplora-section{
+    padding: 80px;
+}

@@ -1,0 +1,93 @@
+.header-section{
+    padding: 15px 30px;
+    background: var(--Cream, #F5F4EE)
+}
+.header-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head-applock{
+    a{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-family: "Poppins";
+        font-size: 33px;
+        font-weight: 600;
+        line-height: 49.5px;
+        text-align: left;
+
+    }
+}
+.banner-menu {
+    padding-top: 200px;
+  }
+.applock-menu{
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+        padding-top: 15px;
+        li{
+            a{
+                color: var(--Brown, #3E1A09);
+                font-family: Satoshi;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: -0.6px;
+            }
+        }
+    }
+}
+.applock-btn{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    button{
+        color: var(--ffffff, #FFF);
+        font-family: "Satoshi";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        border-radius: 25px;
+background: var(--Primary, #6D9DC5);
+padding: 13px 25px;
+transition: .3s;
+&:hover{
+   border:1px solid #6D9DC5;
+    color:#6D9DC5;
+ }
+
+
+    }
+
+}
+.opne-menu{
+    display: none;
+}
+
+.apploc-menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:258px;
+  }
+
+  .header-close{
+    display: none;
+  }
+  .menu-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    background-color: rgb(255, 255, 255);
+    transition: .3s;
+
+}

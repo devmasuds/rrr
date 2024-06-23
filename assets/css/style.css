@@ -1,0 +1,725 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+.header-section {
+  padding: 15px 30px;
+  background: var(--Cream, #F5F4EE);
+}
+
+.header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.head-applock a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  font-family: "Poppins";
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 49.5px;
+  text-align: left;
+}
+
+.banner-menu {
+  padding-top: 200px;
+}
+
+.applock-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 35px;
+  padding-top: 15px;
+}
+.applock-menu ul li a {
+  color: var(--Brown, #3E1A09);
+  font-family: Satoshi;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.6px;
+}
+
+.applock-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+.applock-btn button {
+  color: var(--ffffff, #FFF);
+  font-family: "Satoshi";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 25px;
+  background: var(--Primary, #6D9DC5);
+  padding: 13px 25px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.applock-btn button:hover {
+  border: 1px solid #6D9DC5;
+  color: #6D9DC5;
+}
+
+.opne-menu {
+  display: none;
+}
+
+.apploc-menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 258px;
+}
+
+.header-close {
+  display: none;
+}
+
+.menu-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  background-color: rgb(255, 255, 255);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+section {
+  overflow: hidden;
+}
+
+body {
+  font-family: serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+}
+
+.top-bottom {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  background-color: #00A3FF;
+  color: white;
+  font-size: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.top-bottom.active {
+  opacity: 1;
+  pointer-events: auto;
+  z-index: 33;
+  bottom: 100px;
+  right: 100px;
+}
+
+.banner-section {
+  background-image: url(./../img/banner/Group\ 76.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 826px;
+}
+
+.banner-text {
+  padding: 287px;
+}
+.banner-text h5 {
+  color: var(--Brown, #3E1A09);
+  text-align: center;
+  font-family: "Satoshi";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.banner-text h2 {
+  color: var(--Brown, #3E1A09);
+  text-align: center;
+  font-family: "Satoshi";
+  font-size: 150px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -4.5px;
+}
+.banner-text p {
+  color: var(--Brown, #3E1A09);
+  text-align: center;
+  font-family: "Satoshi";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.6px;
+}
+
+.Esplora-text h3 {
+  color: var(--Brown, #3E1A09);
+  font-family: "Satoshi";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.44px;
+}
+.Esplora-text img {
+  margin-top: 30px;
+  width: 27px;
+  height: 29px;
+}
+
+.Esplora-section {
+  padding: 80px;
+}
+
+.parti-item h4, .parti-item h5 {
+  color: var(--Brown, #3E1A09);
+  text-align: center;
+  font-family: "Satoshi";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.6px;
+}
+.parti-item img {
+  height: 29px;
+  width: 29px;
+}
+
+.parti-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.parti-section {
+  padding: 200px 450px;
+}
+
+.parti-head-text {
+  margin-bottom: 65px;
+}
+.parti-head-text h3 {
+  color: var(--Brown, #3E1A09);
+  text-align: center;
+  font-family: "Satoshi";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -1.44px;
+}
+
+.cola-item1 {
+  background-image: url(./../img/macola/1.png);
+}
+
+.cola-item2 {
+  background-image: url(./../img/macola/2.png);
+}
+
+.cola-item3 {
+  background-image: url(./../img/macola/3.png);
+}
+
+.cola-item4 {
+  background-image: url(./../img/macola/4.png);
+}
+
+.cola-item5 {
+  background-image: url(./../img/macola/5.png);
+}
+
+.cola-item6 {
+  background-image: url(./../img/macola/6.png);
+}
+
+.cola-item7 {
+  background-image: url(./../img/macola/01.png);
+}
+
+.cola-item8 {
+  background-image: url(./../img/macola/02.png);
+}
+
+.cola-item9 {
+  background-image: url(./../img/macola/03.png);
+}
+
+.macola-menu ul, .macola-menus ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 16px 2fr 16px 2fr;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 16px;
+}
+
+.macola-text {
+  padding-top: 283px;
+  -o-border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.2), #000);
+     border-image: fill 0 -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(#000));
+     border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.2), #000);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 450px;
+}
+
+.macola-bgr {
+  padding-left: 30px;
+}
+
+.madeira-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 30px;
+}
+.madeira-item h6 {
+  color: var(--Cream, #F5F4EE);
+  font-family: "Satoshi";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.6px;
+}
+.madeira-item span {
+  color: var(--Cream, #F5F4EE);
+  font-family: "Satoshi";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.6px;
+}
+
+.macola-bgr h4 {
+  color: var(--Cream, #F5F4EE);
+  font-family: Satoshi;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -1.44px;
+}
+
+.macola-menus {
+  padding-top: 65px;
+  margin-bottom: 250px;
+}
+
+.passati-logo {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+.passati-logo img {
+  height: 460px;
+  width: 460px;
+}
+
+.Viaggi-passati {
+  position: relative;
+}
+
+.accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: none;
+  border-top-right-radius: none;
+  color: var(--Brown, #3E1A09);
+  font-family: Satoshi;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+
+.accordion-body {
+  padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
+  color: var(--Brown, #3E1A09);
+  font-family: Satoshi;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  padding-right: 450px;
+}
+
+.accordion-button {
+  -webkit-transition: var(--bs-accordion-transition);
+  transition: var(--bs-accordion-transition);
+  color: var(--Brown, #3E1A09);
+  font-family: "Satoshi";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.96px;
+  border-bottom: 1px solid;
+}
+
+.alcune-head-text {
+  margin-bottom: 76px;
+}
+.alcune-head-text h3 {
+  color: var(--Brown, #3E1A09);
+  text-align: center;
+  font-family: "Satoshi";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.44px;
+}
+.alcune-head-text h3 span {
+  color: var(--Yellow-2, #FEBB00);
+}
+
+.alcune-menu {
+  margin-bottom: 200px;
+}
+
+.precho-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+.precho-item img {
+  height: 21px;
+  width: 21px;
+}
+.precho-item h6 {
+  color: var(--Brown, #3E1A09);
+  font-family: "Satoshi";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.6px;
+}
+
+.precho-menu {
+  padding: 79px 200px;
+}
+.precho-menu ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 95px 2fr 95px 2fr;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 95px;
+}
+
+.precho-text h3 {
+  color: var(--Brown, #3E1A09);
+  text-align: center;
+  font-family: Satoshi;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.44px;
+}
+
+.cosa-menu {
+  position: relative;
+  margin-bottom: 383px;
+}
+.cosa-menu ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 65px;
+}
+.cosa-menu ul li {
+  border-radius: 10px;
+  background: #FFF;
+  border: 1px solid;
+  padding: 59px;
+}
+.cosa-menu ul li p {
+  color: var(--Brown, #3E1A09);
+  font-family: "Satoshi";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.6px;
+}
+.cosa-menu ul li p strong {
+  font-size: 40px;
+}
+.cosa-menu ul li span {
+  color: var(--Brown, #3E1A09);
+  font-family: "Satoshi";
+  margin-top: 20px;
+  font-family: "Satoshi";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.cosa-photo img {
+  height: 719px;
+  width: 555px;
+  position: absolute;
+  top: 374px;
+}
+
+.dicono-logo img {
+  height: 440px;
+  width: 400px;
+  position: absolute;
+  top: -197px;
+  right: 0;
+  z-index: -1;
+}
+
+.iscr-input p {
+  color: var(--Brown, #3E1A09);
+  text-align: center;
+  font-family: "Satoshi";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.6px;
+}
+
+input, .form-control {
+  margin-top: 65px;
+  margin-bottom: 60px;
+  width: 1380px;
+  height: 37px;
+  padding: 26px;
+  border-radius: 10px;
+  background: #FFF;
+  color: var(--Brown, #3E1A09);
+  font-family: "Satoshi";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+
+.iscr-menu button {
+  position: absolute;
+  right: 253px;
+  bottom: 132px;
+  color: var(--Brown, #3E1A09);
+  font-family: Satoshi;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.72px;
+  border-radius: 15px;
+  border: none;
+  background: var(--Yellow-2, #FEBB00);
+  padding: 6px 15px;
+}
+
+.iscr-iviti {
+  position: relative;
+  margin-bottom: 230px;
+}
+
+.footer-menu ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 50px 2fr 50px 2fr 50px 2fr;
+  grid-template-columns: repeat(4, 2fr);
+  gap: 50px;
+}
+
+.footer-section {
+  background: var(--Brown, #3E1A09);
+}
+
+.footer-item1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+.footer-item1 img {
+  width: 31px;
+  height: 26px;
+  margin: 0px 10px;
+}
+.footer-item1 h4 {
+  color: #F5F4EE;
+  font-family: "Satoshi";
+  font-size: 31.197px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -2.184px;
+}
+
+.footer-item h6 {
+  color: var(--Cream, #F5F4EE);
+  font-family: "Satoshi";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  margin-bottom: 20px;
+}
+.footer-item p {
+  color: var(--Cream, #F5F4EE);
+  font-family: "Satoshi";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.6px;
+}
+
+.footer-item3 ul {
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.footer-item4 h4 {
+  color: var(--Cream, #F5F4EE);
+  font-family: "Satoshi";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  margin-bottom: 20px;
+}
+.footer-item4 ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 20px 2fr 20px 2fr;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 20px;
+}
+
+h4 {
+  color: var(--Cream, #e9c810);
+  font-family: "Satoshi";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  margin-bottom: 20px;
+}
+
+ul li a {
+  color: var(--Cream, #F5F4EE);
+  font-family: "Satoshi";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  padding: 10px 0;
+}
+
+.footer-menu {
+  padding: 40px 0;
+  margin-bottom: 200px;
+}
+/*# sourceMappingURL=style.css.map */

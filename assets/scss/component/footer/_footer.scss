@@ -1,0 +1,105 @@
+.footer-menu{
+    ul{
+        display: grid;
+        grid-template-columns: repeat(4,2fr);
+        gap: 50px;
+
+    }
+}
+.footer-section{
+    background: var(--Brown, #3E1A09);
+}
+.footer-item1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    img{
+        width: 31px;
+        height: 26px;
+        margin: 0px 10px;
+    }
+    h4{
+        color: #F5F4EE;
+font-family: "Satoshi";
+font-size: 31.197px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -2.184px;
+    }
+}
+.footer-item{
+    h6{
+        color: var(--Cream, #F5F4EE);
+font-family: "Satoshi";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.6px;
+margin-bottom: 20px;
+    }
+    p{
+        color: var(--Cream, #F5F4EE);
+font-family: "Satoshi";
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.6px;
+    }
+}
+.footer-item3{
+    ul{
+        display: block;
+        align-items: center;
+        gap: 10px;
+    }
+}
+.footer-item4{
+    h4{
+        color: var(--Cream, #F5F4EE);
+        font-family: "Satoshi";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.6px;
+        margin-bottom: 20px;
+    }
+    ul{
+        display: grid;
+        grid-template-columns: repeat(3,2fr);
+        gap: 20px;
+    }
+}
+
+    h4{
+        color: var(--Cream, #e9c810);
+        font-family: "Satoshi";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.6px;
+        margin-bottom: 20px;
+    }
+
+ul{
+    li{
+        a{
+            color: var(--Cream, #F5F4EE);
+            font-family: "Satoshi";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.6px; 
+            padding: 10px 0;
+        }
+    }
+}
+.footer-menu{
+    padding: 40px 0;
+    margin-bottom: 200px;
+}
